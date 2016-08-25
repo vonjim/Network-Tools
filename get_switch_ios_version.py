@@ -1,8 +1,8 @@
 #! /usr/bin/python
 '''
-A python script that takes each IP address from the ios_switch_ips file and using SNMP
-extracts Total and Free size on flash.
-Telnets to IP address and extracts boot system file if it is set. Save errors to error_file and logs output to ios_switch_output
+	A python script that takes each IP address from the ios_switch_ips file and using SNMP
+	extracts Total and Free size on flash.
+	Telnets to IP address and extracts boot system file if it is set. Save errors to error_file and logs output to ios_switch_output
 '''
 
 import netsnmp
